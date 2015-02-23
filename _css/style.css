@@ -1,0 +1,140 @@
+body{
+  width:50%;
+}
+
+table, td{
+	border: 1px solid #276D05;
+	border-collapse: collapse;
+	padding: 5px;
+}
+
+#table_main{
+	width: 100%;
+}
+
+th{
+	background-color: #276D05;
+	color: white;
+	height: 25px;
+	padding: 5px;
+}
+
+.short_description{
+	width: 20%;
+}
+
+.Completed{
+	width: 15%;
+}
+
+td{
+	text-align: center;
+}
+
+#markCompleteBTN{
+	float: left;
+	vertical-align: middle;
+}
+
+#deleteBTN{
+	float: right;
+	vertical-align: middle;
+}
+
+h1{
+	text-align: center;
+	color: #276D05;
+}
+
+.bottomBTN{
+	padding: 5px 15px 5px 5px;
+	width: 100%;
+}
+
+#newTaskTitle{
+    margin-left: 2%;
+    width: 50%;
+	border: 1px solid #276D05;
+}
+
+#newTaskDetailedText{
+    height: 50px;
+    margin-left: 2%;
+    overflow-y: auto;
+    width: 96%;
+	border: 1px solid #276D05;
+}
+
+.status_image{
+    height: 15px;
+    padding-left: 15px;
+    text-align: right;
+    width: 15px;
+}
+
+#insertForm{
+	border: 1px solid #276D05;
+	padding: 15px;
+}
+
+.long_description{
+	text-align: left;
+}
+
+#task_details_title{
+	margin-left: 2%;
+	color: #276D05;
+}
+
+#task_title_title{
+	margin-left: 2%;
+	color: #276D05;
+}
+
+#insertButton{
+	float: right;
+	margin-top: 5px;
+}
+
+.footer_text{
+
+}
+
+#sortLinks{
+	padding-top: 10px;
+}
+
+#showInComplete{
+	float: left;
+}
+
+#showComplete{
+	float: left;
+	padding-left: 5px;
+}
+
+#showAll{
+	float: right;
+	visibility: hidden;
+	padding-right: 5px;
+	color: red;
+	text-decoration: none;
+}
+
+footer{
+	display: block;
+	background-color: #276D05;
+	color: white;
+	height: 100px;
+	text-align: center;
+}
+
+#topSort{
+	padding: 10px;
+	margin-bottom: 25px;
+}
+
+#cssValidator{
+	float: left;
+	padding: 10px;
+}
